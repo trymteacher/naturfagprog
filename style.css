@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial;
+    background: #eef3fb;
+    margin: 0;
+}
+
+header {
+    background: #723FF3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    
+}
+
+.row {
+    margin: 10px 0;
+}
+
+a.nav-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 8px;
+    background: #723FF3;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Nye farger */
+a.nav-btn.green {
+    background: #2ecc71;
+}
+
+a.nav-btn.orange {
+    background: #CC5500;
+}
+
+a.nav-btn.burgundy {
+    background: #800020;
+}
+
+img {
+    max-width: 700px;
+    width: 100%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+}
